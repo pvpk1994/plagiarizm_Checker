@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo "plagiarism check"
-
+echo "\nplagiarism check for COSC3360 -Operating Systems Spring 2019"
+echo "-------------------------------------------------------------\n"
 declare -a arr=()
 declare -i count
 for filename in *.c;
@@ -13,7 +13,7 @@ do
 done
 #declare -p arr
 declare -i count=${#arr[@]}
-echo "Count" ${count}
+echo "\nCount" ${count} ": Number of Students\n"
 #echo "First element" ${arr[count-1]}
 #echo "second Element" ${arr[1]}
 
@@ -23,8 +23,9 @@ for ((i=0; i<${count} ; i+=1 ));
 	do
 		for((j=i+1; j<${count} ; j+=1 ));
 			do 
+				echo "\n******** ---- SCAN BEGINS--- ******"
 				./sim_c -p ${arr[i]} ${arr[j]}
-                echo "\n******* ---SCAN COMPLETE--- *******"
+                echo "\n******* ---SCAN COMPLETES--- *******\n"
 #echo "Scan" ${i} "Complete"
 	        done
 
