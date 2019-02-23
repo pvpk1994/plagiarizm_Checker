@@ -12,12 +12,11 @@ Checks Plagiarism between any *.c / *.cpp
    Sample Result Looks like this on running 2 different files that are to be compared.
    ------------------------------------------------------------------------------------
    
-   Count 113 : Number of Students
+   Count 2 : Number of Students
 
 
 ******** ---- SCAN BEGINS--- ******
 Student -> ABC.cpp 
 Student -> CEF.cpp 
-
-
  Percentage Match: 3% match between ABC.cpp and CEF.cpp
+******** ---- SCAN COMPLETES--- ******
