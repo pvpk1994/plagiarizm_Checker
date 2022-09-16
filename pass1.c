@@ -1,5 +1,6 @@
 /*	This file is part of the software similarity tester SIM.
-	Written by Dick Grune, Vrije Universiteit, Amsterdam.
+	Written by Dick Grune, Vrije Universiteit, Amsterdam.,
+	Modified to add custom params by Pavan
 	$Id: pass1.c,v 2.40 2017-12-11 14:12:36 dick Exp $
 */
 
